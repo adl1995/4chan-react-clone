@@ -17,38 +17,47 @@ export default defineMessages({
   japaneseAnimeMangaBoard: {
     id: 'boilerplate.containers.BoardPage.scaffolding.boardSubHeading',
     defaultMessage: 'Anime &amp; Manga',
+    tag: 'a',
   },
   japaneseAnimeCuteBoard: {
     id: 'boilerplate.containers.BoardPage.scaffolding.boardSubHeading',
     defaultMessage: 'Anime/Cute',
+    tag: 'c',
   },
   japaneseAnimeWallpapersBoard: {
     id: 'boilerplate.containers.BoardPage.scaffolding.boardSubHeading',
     defaultMessage: 'Anime/Wallpapers',
+    tag: 'w',
   },
   japaneseMechaBoard: {
     id: 'boilerplate.containers.BoardPage.scaffolding.boardSubHeading',
     defaultMessage: 'Mecha',
+    tag: 'm',
   },
   japaneseCosplayBoard: {
     id: 'boilerplate.containers.BoardPage.scaffolding.boardSubHeading',
     defaultMessage: 'Cosplay',
+    tag: 'cgl',
   },
   japaneseCuteMaleBoard: {
     id: 'boilerplate.containers.BoardPage.scaffolding.boardSubHeading',
     defaultMessage: 'Cute/Male',
+    tag: 'cm',
   },
   japaneseFlashBoard: {
     id: 'boilerplate.containers.BoardPage.scaffolding.boardSubHeading',
     defaultMessage: 'Flash',
+    tag: 'f',
   },
   japaneseTransportationBoard: {
     id: 'boilerplate.containers.BoardPage.scaffolding.boardSubHeading',
     defaultMessage: 'Transportation',
+    tag: 'n',
   },
   japaneseOtakuCultureBoard: {
     id: 'boilerplate.containers.BoardPage.scaffolding.boardSubHeading',
     defaultMessage: 'Otaku Culture',
+    tag: 'jp',
   },
   videogamesBoard: {
     id: 'boilerplate.containers.BoardPage.scaffolding.boardHeading',
