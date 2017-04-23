@@ -24,14 +24,14 @@ export default class BoardPage extends React.Component { // eslint-disable-line 
 
   render() {
     const japaneseAnimeMangaBoardTag = <FormattedMessage {...messages.japaneseAnimeMangaBoard.tag[0]} />.props[0];
-    const japaneseAnimeCuteBoard = <FormattedMessage {...messages.japaneseAnimeCuteBoard.tag[0]} />.props[0];
-    const japaneseAnimeWallpapersBoard = <FormattedMessage {...messages.japaneseAnimeWallpapersBoard.tag[0]} />.props[0];
-    const japaneseMechaBoard = <FormattedMessage {...messages.japaneseMechaBoard.tag[0]} />.props[0];
-    const japaneseCosplayBoard = <FormattedMessage {...messages.japaneseCosplayBoard.tag[0]} />.props[0];
-    const japaneseCuteMaleBoard = <FormattedMessage {...messages.japaneseCuteMaleBoard.tag[0]} />.props[0];
-    const japaneseFlashBoard = <FormattedMessage {...messages.japaneseFlashBoard.tag[0]} />.props[0];
-    const japaneseTransportationBoard = <FormattedMessage {...messages.japaneseTransportationBoard.tag[0]} />.props[0];
-    const japaneseOtakuCultureBoard = <FormattedMessage {...messages.japaneseOtakuCultureBoard.tag[0]} />.props[0];
+    const japaneseAnimeCuteBoardTag = <FormattedMessage {...messages.japaneseAnimeCuteBoard.tag[0]} />.props[0];
+    const japaneseAnimeWallpapersBoardTag = <FormattedMessage {...messages.japaneseAnimeWallpapersBoard.tag[0]} />.props[0];
+    const japaneseMechaBoardTag = <FormattedMessage {...messages.japaneseMechaBoard.tag[0]} />.props[0];
+    const japaneseCosplayBoardTag = <FormattedMessage {...messages.japaneseCosplayBoard.tag[0]} />.props[0];
+    const japaneseCuteMaleBoardTag = <FormattedMessage {...messages.japaneseCuteMaleBoard.tag[0]} />.props[0];
+    const japaneseFlashBoardTag = <FormattedMessage {...messages.japaneseFlashBoard.tag[0]} />.props[0];
+    const japaneseTransportationBoardTag = <FormattedMessage {...messages.japaneseTransportationBoard.tag[0]} />.props[0];
+    const japaneseOtakuCultureBoardTag = <FormattedMessage {...messages.japaneseOtakuCultureBoard.tag[0]} />.props[0];
 
     return (
       <div>
@@ -51,6 +51,31 @@ export default class BoardPage extends React.Component { // eslint-disable-line 
           <ListItem>
             <ListItemTitle>
               <a href={japaneseAnimeMangaBoardTag}><FormattedMessage {...messages.japaneseAnimeMangaBoard} /></a>
+            </ListItemTitle>
+          </ListItem>
+          <ListItem>
+            <ListItemTitle>
+              <a href={japaneseAnimeCuteBoardTag}><FormattedMessage {...messages.japaneseAnimeCuteBoard} /></a>
+            </ListItemTitle>
+          </ListItem>
+          <ListItem>
+            <ListItemTitle>
+              <a href={japaneseAnimeWallpapersBoardTag}><FormattedMessage {...messages.japaneseAnimeWallpapersBoard} /></a>
+            </ListItemTitle>
+          </ListItem>
+          <ListItem>
+            <ListItemTitle>
+              <a href={japaneseMechaBoardTag}><FormattedMessage {...messages.japaneseMechaBoard} /></a>
+            </ListItemTitle>
+          </ListItem>
+          <ListItem>
+            <ListItemTitle>
+              <a href={japaneseTransportationBoardTag}><FormattedMessage {...messages.japaneseTransportationBoard} /></a>
+            </ListItemTitle>
+          </ListItem>
+          <ListItem>
+            <ListItemTitle>
+              <a href={japaneseOtakuCultureBoardTag}><FormattedMessage {...messages.japaneseOtakuCultureBoard} /></a>
             </ListItemTitle>
           </ListItem>
         </List>
