@@ -47,7 +47,7 @@ export default function createRoutes(store) {
           .catch(errorLoading);
       },
     }, {
-      path: '/thread',
+      path: '/thread/:tag',
       name: 'thread',
       getComponent(nextState, cb) {
         import('containers/ThreadPage')

@@ -4,6 +4,7 @@
  * List thread in a board
  */
 import React from 'react';
+import H1 from 'components/H1';
 
 export default class ThreadPage extends React.Component { // eslint-disable-line react/prefer-stateless-function
 
@@ -14,8 +15,11 @@ export default class ThreadPage extends React.Component { // eslint-disable-line
   }
 
   render() {
+  	const board = this.props.routeParams.tag;
     return (
-      <h1>Test</h1>
+	    <H1>
+	      Welcome to the {board} thread
+	    </H1>
     );
   }
 }

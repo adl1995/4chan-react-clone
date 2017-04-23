@@ -23,15 +23,15 @@ export default class BoardPage extends React.Component { // eslint-disable-line 
   }
 
   render() {
-    const japaneseAnimeMangaBoardTag = <FormattedMessage {...messages.japaneseAnimeMangaBoard.tag[0]} />.props[0];
-    const japaneseAnimeCuteBoardTag = <FormattedMessage {...messages.japaneseAnimeCuteBoard.tag[0]} />.props[0];
-    const japaneseAnimeWallpapersBoardTag = <FormattedMessage {...messages.japaneseAnimeWallpapersBoard.tag[0]} />.props[0];
-    const japaneseMechaBoardTag = <FormattedMessage {...messages.japaneseMechaBoard.tag[0]} />.props[0];
-    const japaneseCosplayBoardTag = <FormattedMessage {...messages.japaneseCosplayBoard.tag[0]} />.props[0];
-    const japaneseCuteMaleBoardTag = <FormattedMessage {...messages.japaneseCuteMaleBoard.tag[0]} />.props[0];
-    const japaneseFlashBoardTag = <FormattedMessage {...messages.japaneseFlashBoard.tag[0]} />.props[0];
-    const japaneseTransportationBoardTag = <FormattedMessage {...messages.japaneseTransportationBoard.tag[0]} />.props[0];
-    const japaneseOtakuCultureBoardTag = <FormattedMessage {...messages.japaneseOtakuCultureBoard.tag[0]} />.props[0];
+    const japaneseAnimeMangaBoardTag = "thread/" + <FormattedMessage {...messages.japaneseAnimeMangaBoard.tag[0]} />.props[0];
+    const japaneseAnimeCuteBoardTag = "thread/" + <FormattedMessage {...messages.japaneseAnimeCuteBoard.tag[0]} />.props[0];
+    const japaneseAnimeWallpapersBoardTag = "thread/" + <FormattedMessage {...messages.japaneseAnimeWallpapersBoard.tag[0]} />.props[0];
+    const japaneseMechaBoardTag = "thread/" + <FormattedMessage {...messages.japaneseMechaBoard.tag[0]} />.props[0];
+    const japaneseCosplayBoardTag = "thread/" + <FormattedMessage {...messages.japaneseCosplayBoard.tag[0]} />.props[0];
+    const japaneseCuteMaleBoardTag = "thread/" + <FormattedMessage {...messages.japaneseCuteMaleBoard.tag[0]} />.props[0];
+    const japaneseFlashBoardTag = "thread/" + <FormattedMessage {...messages.japaneseFlashBoard.tag[0]} />.props[0];
+    const japaneseTransportationBoardTag = "thread/" + <FormattedMessage {...messages.japaneseTransportationBoard.tag[0]} />.props[0];
+    const japaneseOtakuCultureBoardTag = "thread/" + <FormattedMessage {...messages.japaneseOtakuCultureBoard.tag[0]} />.props[0];
 
     return (
       <div>
@@ -51,8 +51,7 @@ export default class BoardPage extends React.Component { // eslint-disable-line 
         <List>
           <ListItem>
             <ListItemTitle>
-              <a href="/thread"><FormattedMessage {...messages.japaneseAnimeMangaBoard} /></a>
-              // <a href={japaneseAnimeMangaBoardTag}><FormattedMessage {...messages.japaneseAnimeMangaBoard} /></a>
+              <a href={japaneseAnimeMangaBoardTag}><FormattedMessage {...messages.japaneseAnimeMangaBoard} /></a>
             </ListItemTitle>
           </ListItem>
           <ListItem>
