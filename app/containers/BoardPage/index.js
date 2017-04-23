@@ -1,7 +1,7 @@
 /*
- * FeaturePage
+ * BoardPage
  *
- * List all the features
+ * List all the boards
  */
 import React from 'react';
 import Helmet from 'react-helmet';
@@ -25,9 +25,9 @@ export default class BoardPage extends React.Component { // eslint-disable-line 
     return (
       <div>
         <Helmet
-          title="Feature Page"
+          title="Board Page"
           meta={[
-            { name: 'description', content: 'Feature page of React.js Boilerplate application' },
+            { name: 'description', content: 'Board page of React.js Boilerplate application' },
           ]}
         />
         <H1>
