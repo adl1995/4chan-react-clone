@@ -23,7 +23,16 @@ export default class BoardPage extends React.Component { // eslint-disable-line 
   }
 
   render() {
-    const val = <FormattedMessage {...messages.scaffoldingHeader} />;
+    const japaneseAnimeMangaBoardTag = <FormattedMessage {...messages.japaneseAnimeMangaBoard.tag[0]} />.props[0];
+    const japaneseAnimeCuteBoard = <FormattedMessage {...messages.japaneseAnimeCuteBoard.tag[0]} />.props[0];
+    const japaneseAnimeWallpapersBoard = <FormattedMessage {...messages.japaneseAnimeWallpapersBoard.tag[0]} />.props[0];
+    const japaneseMechaBoard = <FormattedMessage {...messages.japaneseMechaBoard.tag[0]} />.props[0];
+    const japaneseCosplayBoard = <FormattedMessage {...messages.japaneseCosplayBoard.tag[0]} />.props[0];
+    const japaneseCuteMaleBoard = <FormattedMessage {...messages.japaneseCuteMaleBoard.tag[0]} />.props[0];
+    const japaneseFlashBoard = <FormattedMessage {...messages.japaneseFlashBoard.tag[0]} />.props[0];
+    const japaneseTransportationBoard = <FormattedMessage {...messages.japaneseTransportationBoard.tag[0]} />.props[0];
+    const japaneseOtakuCultureBoard = <FormattedMessage {...messages.japaneseOtakuCultureBoard.tag[0]} />.props[0];
+
     return (
       <div>
         <Helmet
@@ -41,52 +50,8 @@ export default class BoardPage extends React.Component { // eslint-disable-line 
         <List>
           <ListItem>
             <ListItemTitle>
-              <a href={val.props.defaultMessage}><FormattedMessage {...messages.scaffoldingHeader} /></a>
+              <a href={japaneseAnimeMangaBoardTag}><FormattedMessage {...messages.japaneseAnimeMangaBoard} /></a>
             </ListItemTitle>
-          </ListItem>
-<li><a href="//boards.4chan.org/a/" class="boardlink"></a></li>
-<li><a href="//boards.4chan.org/c/" class="boardlink">Anime/Cute</a></li>
-<li><a href="//boards.4chan.org/w/" class="boardlink">Anime/Wallpapers</a></li>
-<li><a href="//boards.4chan.org/m/" class="boardlink">Mecha</a></li>
-<li><a href="//boards.4chan.org/cgl/" class="boardlink">Cosplay &amp; EGL</a></li>
-<li><a href="//boards.4chan.org/cm/" class="boardlink">Cute/Male</a></li>
-<li><a href="//boards.4chan.org/f/" class="boardlink">Flash</a></li>
-<li><a href="//boards.4chan.org/n/" class="boardlink">Transportation</a></li>
-<li><a href="//boards.4chan.org/jp/" class="boardlink">Otaku Culture</a></li>
-          <ListItem>
-            <ListItemTitle>
-              <FormattedMessage {...messages.feedbackHeader} />
-            </ListItemTitle>
-            <p>
-              <FormattedMessage {...messages.feedbackMessage} />
-            </p>
-          </ListItem>
-
-          <ListItem>
-            <ListItemTitle>
-              <FormattedMessage {...messages.routingHeader} />
-            </ListItemTitle>
-            <p>
-              <FormattedMessage {...messages.routingMessage} />
-            </p>
-          </ListItem>
-
-          <ListItem>
-            <ListItemTitle>
-              <FormattedMessage {...messages.networkHeader} />
-            </ListItemTitle>
-            <p>
-              <FormattedMessage {...messages.networkMessage} />
-            </p>
-          </ListItem>
-
-          <ListItem>
-            <ListItemTitle>
-              <FormattedMessage {...messages.intlHeader} />
-            </ListItemTitle>
-            <p>
-              <FormattedMessage {...messages.intlMessage} />
-            </p>
           </ListItem>
         </List>
       </div>
