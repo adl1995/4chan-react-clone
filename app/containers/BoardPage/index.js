@@ -42,11 +42,7 @@ export default class BoardPage extends React.Component { // eslint-disable-line 
           <ListItem>
             <ListItemTitle>
               <a href={val.props.defaultMessage}><FormattedMessage {...messages.scaffoldingHeader} /></a>
-              <FormattedMessage {...messages.scaffoldingHeader} />
             </ListItemTitle>
-            <p>
-              <FormattedMessage {...messages.scaffoldingMessage} />
-            </p>
           </ListItem>
 
           <ListItem>

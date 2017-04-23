@@ -26,16 +26,16 @@ export default defineMessages({
     id: 'boilerplate.containers.BoardPage.scaffolding.boardHeading',
     defaultMessage: 'Creative',
   },
-  otherHeader: {
-    id: 'boilerplate.containers.BoardPage.scaffolding.header',
+  otherBoard: {
+    id: 'boilerplate.containers.BoardPage.scaffolding.boardHeading',
     defaultMessage: 'Other',
   },
-  miscHeader: {
-    id: 'boilerplate.containers.BoardPage.scaffolding.header',
+  miscBoard: {
+    id: 'boilerplate.containers.BoardPage.scaffolding.boardHeading',
     defaultMessage: 'Misc.',
   },
-  adultHeader: {
-    id: 'boilerplate.containers.BoardPage.scaffolding.header',
+  adultBoard: {
+    id: 'boilerplate.containers.BoardPage.scaffolding.boardHeading',
     defaultMessage: 'Adult',
   },
   scaffoldingMessage: {
