@@ -44,7 +44,15 @@ export default class BoardPage extends React.Component { // eslint-disable-line 
               <a href={val.props.defaultMessage}><FormattedMessage {...messages.scaffoldingHeader} /></a>
             </ListItemTitle>
           </ListItem>
-
+<li><a href="//boards.4chan.org/a/" class="boardlink"></a></li>
+<li><a href="//boards.4chan.org/c/" class="boardlink">Anime/Cute</a></li>
+<li><a href="//boards.4chan.org/w/" class="boardlink">Anime/Wallpapers</a></li>
+<li><a href="//boards.4chan.org/m/" class="boardlink">Mecha</a></li>
+<li><a href="//boards.4chan.org/cgl/" class="boardlink">Cosplay &amp; EGL</a></li>
+<li><a href="//boards.4chan.org/cm/" class="boardlink">Cute/Male</a></li>
+<li><a href="//boards.4chan.org/f/" class="boardlink">Flash</a></li>
+<li><a href="//boards.4chan.org/n/" class="boardlink">Transportation</a></li>
+<li><a href="//boards.4chan.org/jp/" class="boardlink">Otaku Culture</a></li>
           <ListItem>
             <ListItemTitle>
               <FormattedMessage {...messages.feedbackHeader} />
