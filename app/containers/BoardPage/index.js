@@ -8,6 +8,7 @@ import Helmet from 'react-helmet';
 import { FormattedMessage } from 'react-intl';
 
 import H1 from 'components/H1';
+import H2 from 'components/H2';
 import messages from './messages';
 import List from './List';
 import ListItem from './ListItem';
@@ -22,6 +23,7 @@ export default class BoardPage extends React.Component { // eslint-disable-line 
   }
 
   render() {
+    const val = <FormattedMessage {...messages.scaffoldingHeader} />;
     return (
       <div>
         <Helmet
@@ -33,9 +35,13 @@ export default class BoardPage extends React.Component { // eslint-disable-line 
         <H1>
           <FormattedMessage {...messages.header} />
         </H1>
+        <H2>
+          <FormattedMessage {...messages.japaneseBoard} />
+        </H2>
         <List>
           <ListItem>
             <ListItemTitle>
+              <a href={val.props.defaultMessage}><FormattedMessage {...messages.scaffoldingHeader} /></a>
               <FormattedMessage {...messages.scaffoldingHeader} />
             </ListItemTitle>
             <p>

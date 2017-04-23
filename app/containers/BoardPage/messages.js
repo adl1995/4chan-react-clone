@@ -10,9 +10,33 @@ export default defineMessages({
     id: 'boilerplate.containers.BoardPage.header',
     defaultMessage: 'Boards',
   },
-  scaffoldingHeader: {
+  japaneseBoard: {
+    id: 'boilerplate.containers.BoardPage.scaffolding.boardHeading',
+    defaultMessage: 'Japanese Culture',
+  },
+  videogamesBoard: {
+    id: 'boilerplate.containers.BoardPage.scaffolding.boardHeading',
+    defaultMessage: 'Video Games',
+  },
+  interestsBoard: {
+    id: 'boilerplate.containers.BoardPage.scaffolding.boardHeading',
+    defaultMessage: 'Interests',
+  },
+  creativeBoard: {
+    id: 'boilerplate.containers.BoardPage.scaffolding.boardHeading',
+    defaultMessage: 'Creative',
+  },
+  otherHeader: {
     id: 'boilerplate.containers.BoardPage.scaffolding.header',
-    defaultMessage: 'Quick scaffolding',
+    defaultMessage: 'Other',
+  },
+  miscHeader: {
+    id: 'boilerplate.containers.BoardPage.scaffolding.header',
+    defaultMessage: 'Misc.',
+  },
+  adultHeader: {
+    id: 'boilerplate.containers.BoardPage.scaffolding.header',
+    defaultMessage: 'Adult',
   },
   scaffoldingMessage: {
     id: 'boilerplate.containers.BoardPage.scaffolding.message',
