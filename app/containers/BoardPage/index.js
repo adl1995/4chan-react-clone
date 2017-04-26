@@ -96,8 +96,8 @@ export default class BoardPage extends React.Component { // eslint-disable-line 
           <FormattedMessage {...messages.videogamesBoard} />
         </H2>
 
-        // TODO: fix styles
 
+        // TODO: fix style
         <List>
           <ListItem>
             <ListItemTitle>
@@ -121,6 +121,82 @@ export default class BoardPage extends React.Component { // eslint-disable-line 
           </ListItem>
         </List>
 
+        <H2>
+          <FormattedMessage {...messages.interestsBoard} />
+        </H2>
+
+        <List>
+          <ListItem>
+            <ListItemTitle>
+              <a href={videogamesBoardMainTag}><FormattedMessage {...messages.interestsComicsCartoonsBoard} /></a>
+            </ListItemTitle>
+          </ListItem>
+          <ListItem>
+            <ListItemTitle>
+              <a href={videogamesBoardMainTag}><FormattedMessage {...messages.interestsTechnologyBoard} /></a>
+            </ListItemTitle>
+          </ListItem>
+          <ListItem>
+            <ListItemTitle>
+              <a href={videogamesBoardMainTag}><FormattedMessage {...messages.interestsTelevisionBoard} /></a>
+            </ListItemTitle>
+          </ListItem>
+          <ListItem>
+            <ListItemTitle>
+              <a href={videogamesBoardMainTag}><FormattedMessage {...messages.interestsWeaponsBoard} /></a>
+            </ListItemTitle>
+          </ListItem>
+          <ListItem>
+            <ListItemTitle>
+              <a href={videogamesBoardMainTag}><FormattedMessage {...messages.interestsAutoBoard} /></a>
+            </ListItemTitle>
+          </ListItem>
+          <ListItem>
+            <ListItemTitle>
+              <a href={videogamesBoardMainTag}><FormattedMessage {...messages.interestsAnimalsNatureBoard} /></a>
+            </ListItemTitle>
+          </ListItem>
+          <ListItem>
+            <ListItemTitle>
+              <a href={videogamesBoardMainTag}><FormattedMessage {...messages.interestsTraditionalGamesBoard} /></a>
+            </ListItemTitle>
+          </ListItem>
+          <ListItem>
+            <ListItemTitle>
+              <a href={videogamesBoardMainTag}><FormattedMessage {...messages.interestsSportsBoard} /></a>
+            </ListItemTitle>
+          </ListItem>
+          <ListItem>
+            <ListItemTitle>
+              <a href={videogamesBoardMainTag}><FormattedMessage {...messages.interestsAlternativeSportsBoard} /></a>
+            </ListItemTitle>
+          </ListItem>
+          <ListItem>
+            <ListItemTitle>
+              <a href={videogamesBoardMainTag}><FormattedMessage {...messages.interestsScienceMathBoard} /></a>
+            </ListItemTitle>
+          </ListItem>
+          <ListItem>
+            <ListItemTitle>
+              <a href={videogamesBoardMainTag}><FormattedMessage {...messages.interestsHistoryHumanitiesBoard} /></a>
+            </ListItemTitle>
+          </ListItem>
+          <ListItem>
+            <ListItemTitle>
+              <a href={videogamesBoardMainTag}><FormattedMessage {...messages.interestsInternationalBoard} /></a>
+            </ListItemTitle>
+          </ListItem>
+          <ListItem>
+            <ListItemTitle>
+              <a href={videogamesBoardMainTag}><FormattedMessage {...messages.interestsOutdoorsBoard} /></a>
+            </ListItemTitle>
+          </ListItem>
+          <ListItem>
+            <ListItemTitle>
+              <a href={videogamesBoardMainTag}><FormattedMessage {...messages.interestsToysBoard} /></a>
+            </ListItemTitle>
+          </ListItem>
+        </List>
         </div>
     );
   }
