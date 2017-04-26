@@ -31,7 +31,17 @@ export default class BoardPage extends React.Component { // eslint-disable-line 
     const japaneseCuteMaleBoardTag = "thread/" + <FormattedMessage {...messages.japaneseCuteMaleBoard.tag[0]} />.props[0];
     const japaneseFlashBoardTag = "thread/" + <FormattedMessage {...messages.japaneseFlashBoard.tag[0]} />.props[0];
     const japaneseTransportationBoardTag = "thread/" + <FormattedMessage {...messages.japaneseTransportationBoard.tag[0]} />.props[0];
-    const japaneseOtakuCultureBoardTag = "thread/" + <FormattedMessage {...messages.japaneseOtakuCultureBoard.tag[0]} />.props[0];
+    var japaneseOtakuCultureBoardTag = <FormattedMessage {...messages.japaneseOtakuCultureBoard.tag} />;
+    japaneseOtakuCultureBoardTag = "thread/" + japaneseOtakuCultureBoardTag.props[0] + japaneseOtakuCultureBoardTag.props[1];
+
+    const videogamesBoardMainTag = "thread/" + <FormattedMessage {...messages.videogamesBoardMain.tag[0]} />.props[0];
+    var videogamesGeneralsBoardTag = <FormattedMessage {...messages.videogamesGeneralsBoard.tag[0]} />;
+    videogamesGeneralsBoardTag = "thread/" + videogamesGeneralsBoardTag.props[0] + videogamesGeneralsBoardTag.props[1];
+    var videogamesPokemonBoardTag = <FormattedMessage {...messages.videogamesPokemonBoard.tag[0]} />;
+    videogamesPokemonBoardTag = "thread/" + videogamesPokemonBoardTag.props[0] + videogamesPokemonBoardTag.props[1];
+    var videogamesRetroGamesTag = <FormattedMessage {...messages.videogamesRetroGames.tag[0]} />;
+    videogamesRetroGamesTag = "thread/" + videogamesRetroGamesTag.props[0] + videogamesRetroGamesTag.props[1];
+    
 
     return (
       <div>
@@ -80,6 +90,32 @@ export default class BoardPage extends React.Component { // eslint-disable-line 
             </ListItemTitle>
           </ListItem>
         </List>
+
+        <H2>
+          <FormattedMessage {...messages.videogamesBoard} />
+        </H2>
+
+        <ListItem>
+          <ListItemTitle>
+            <a href={videogamesBoardMainTag}><FormattedMessage {...messages.videogamesBoardMain} /></a>
+          </ListItemTitle>
+        </ListItem>
+        <ListItem>
+          <ListItemTitle>
+            <a href={videogamesGeneralsBoardTag}><FormattedMessage {...messages.videogamesGeneralsBoard} /></a>
+          </ListItemTitle>
+        </ListItem>
+        <ListItem>
+          <ListItemTitle>
+            <a href={videogamesPokemonBoardTag}><FormattedMessage {...messages.videogamesPokemonBoard} /></a>
+          </ListItemTitle>
+        </ListItem>
+        <ListItem>
+          <ListItemTitle>
+            <a href={videogamesRetroGamesTag}><FormattedMessage {...messages.videogamesRetroGames} /></a>
+          </ListItemTitle>
+        </ListItem>
+
       </div>
     );
   }

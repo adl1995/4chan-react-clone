@@ -59,10 +59,35 @@ export default defineMessages({
     defaultMessage: 'Otaku Culture',
     tag: 'jp',
   },
+  
   videogamesBoard: {
     id: 'boilerplate.containers.BoardPage.scaffolding.boardHeading',
     defaultMessage: 'Video Games',
   },
+  videogamesBoardMain: {
+    id: 'boilerplate.containers.BoardPage.scaffolding.boardHeading',
+    defaultMessage: 'Video Games',
+    tag: 'v',
+  },
+  videogamesGeneralsBoard: {
+    id: 'boilerplate.containers.BoardPage.scaffolding.boardHeading',
+    defaultMessage: 'Video Game Generals',
+    tag: 'vg',
+  },
+  videogamesPokemonBoard: {
+    id: 'boilerplate.containers.BoardPage.scaffolding.boardHeading',
+    defaultMessage: 'Pokemon',
+    tag: 'vp',
+  },
+  videogamesRetroGames: {
+    id: 'boilerplate.containers.BoardPage.scaffolding.boardHeading',
+    defaultMessage: 'Retro Games',
+    tag: 'vr',
+  },
+
+
+
+
   interestsBoard: {
     id: 'boilerplate.containers.BoardPage.scaffolding.boardHeading',
     defaultMessage: 'Interests',
