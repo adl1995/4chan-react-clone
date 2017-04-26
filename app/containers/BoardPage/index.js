@@ -34,6 +34,7 @@ export default class BoardPage extends React.Component { // eslint-disable-line 
     var japaneseOtakuCultureBoardTag = <FormattedMessage {...messages.japaneseOtakuCultureBoard.tag} />;
     japaneseOtakuCultureBoardTag = "thread/" + japaneseOtakuCultureBoardTag.props[0] + japaneseOtakuCultureBoardTag.props[1];
 
+    // TODO: fix tags
     const videogamesBoardMainTag = "thread/" + <FormattedMessage {...messages.videogamesBoardMain.tag[0]} />.props[0];
     var videogamesGeneralsBoardTag = <FormattedMessage {...messages.videogamesGeneralsBoard.tag[0]} />;
     videogamesGeneralsBoardTag = "thread/" + videogamesGeneralsBoardTag.props[0] + videogamesGeneralsBoardTag.props[1];
@@ -94,6 +95,8 @@ export default class BoardPage extends React.Component { // eslint-disable-line 
         <H2>
           <FormattedMessage {...messages.videogamesBoard} />
         </H2>
+
+        // TODO: fix styles
 
         <List>
           <ListItem>
