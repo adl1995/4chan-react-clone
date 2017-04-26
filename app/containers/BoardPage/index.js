@@ -95,28 +95,30 @@ export default class BoardPage extends React.Component { // eslint-disable-line 
           <FormattedMessage {...messages.videogamesBoard} />
         </H2>
 
-        <ListItem>
-          <ListItemTitle>
-            <a href={videogamesBoardMainTag}><FormattedMessage {...messages.videogamesBoardMain} /></a>
-          </ListItemTitle>
-        </ListItem>
-        <ListItem>
-          <ListItemTitle>
-            <a href={videogamesGeneralsBoardTag}><FormattedMessage {...messages.videogamesGeneralsBoard} /></a>
-          </ListItemTitle>
-        </ListItem>
-        <ListItem>
-          <ListItemTitle>
-            <a href={videogamesPokemonBoardTag}><FormattedMessage {...messages.videogamesPokemonBoard} /></a>
-          </ListItemTitle>
-        </ListItem>
-        <ListItem>
-          <ListItemTitle>
-            <a href={videogamesRetroGamesTag}><FormattedMessage {...messages.videogamesRetroGames} /></a>
-          </ListItemTitle>
-        </ListItem>
+        <List>
+          <ListItem>
+            <ListItemTitle>
+              <a href={videogamesBoardMainTag}><FormattedMessage {...messages.videogamesBoardMain} /></a>
+            </ListItemTitle>
+          </ListItem>
+          <ListItem>
+            <ListItemTitle>
+              <a href={videogamesGeneralsBoardTag}><FormattedMessage {...messages.videogamesGeneralsBoard} /></a>
+            </ListItemTitle>
+          </ListItem>
+          <ListItem>
+            <ListItemTitle>
+              <a href={videogamesPokemonBoardTag}><FormattedMessage {...messages.videogamesPokemonBoard} /></a>
+            </ListItemTitle>
+          </ListItem>
+          <ListItem>
+            <ListItemTitle>
+              <a href={videogamesRetroGamesTag}><FormattedMessage {...messages.videogamesRetroGames} /></a>
+            </ListItemTitle>
+          </ListItem>
+        </List>
 
-      </div>
+        </div>
     );
   }
 }

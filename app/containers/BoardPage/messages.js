@@ -59,7 +59,6 @@ export default defineMessages({
     defaultMessage: 'Otaku Culture',
     tag: 'jp',
   },
-  
   videogamesBoard: {
     id: 'boilerplate.containers.BoardPage.scaffolding.boardHeading',
     defaultMessage: 'Video Games',
@@ -92,6 +91,79 @@ export default defineMessages({
     id: 'boilerplate.containers.BoardPage.scaffolding.boardHeading',
     defaultMessage: 'Interests',
   },
+  interestsComicsCartoonsBoard: {
+    id: 'boilerplate.containers.BoardPage.scaffolding.boardHeading',
+    defaultMessage: 'Interests',
+    tag: 'co',
+  },
+  interestsTechnologyBoard: {
+    id: 'boilerplate.containers.BoardPage.scaffolding.boardHeading',
+    defaultMessage: 'Technology',
+    tag: 'g',
+  },
+  interestsTelevisionBoard: {
+    id: 'boilerplate.containers.BoardPage.scaffolding.boardHeading',
+    defaultMessage: 'Television',
+    tag: 'tv',
+  },
+  interestsWeaponsBoard: {
+    id: 'boilerplate.containers.BoardPage.scaffolding.boardHeading',
+    defaultMessage: 'Weapons',
+    tag: 'k',
+  },
+  interestsAutoBoard: {
+    id: 'boilerplate.containers.BoardPage.scaffolding.boardHeading',
+    defaultMessage: 'Auto',
+    tag: 'o',
+  },
+  interestsAnimalsNatureBoard: {
+    id: 'boilerplate.containers.BoardPage.scaffolding.boardHeading',
+    defaultMessage: 'Animals & Nature',
+    tag: 'an',
+  },
+  interestsTraditionalGamesBoard: {
+    id: 'boilerplate.containers.BoardPage.scaffolding.boardHeading',
+    defaultMessage: 'Traditional Games',
+    tag: 'tg',
+  },
+  interestsSportsBoard: {
+    id: 'boilerplate.containers.BoardPage.scaffolding.boardHeading',
+    defaultMessage: 'Sports',
+    tag: 'sp',
+  },
+  interestsAlternativeSportsBoard: {
+    id: 'boilerplate.containers.BoardPage.scaffolding.boardHeading',
+    defaultMessage: 'Alternative Sports',
+    tag: 'asp',
+  },
+  interestsScienceMathBoard: {
+    id: 'boilerplate.containers.BoardPage.scaffolding.boardHeading',
+    defaultMessage: 'Science & Math',
+    tag: 'sci',
+  },
+  interestsHistoryHumanitiesBoard: {
+    id: 'boilerplate.containers.BoardPage.scaffolding.boardHeading',
+    defaultMessage: 'History & Humanities',
+    tag: 'his',
+  },
+  interestsInternationalBoard: {
+    id: 'boilerplate.containers.BoardPage.scaffolding.boardHeading',
+    defaultMessage: 'International',
+    tag: 'int',
+  },
+  interestsOutdoorsBoard: {
+    id: 'boilerplate.containers.BoardPage.scaffolding.boardHeading',
+    defaultMessage: 'Outdoors',
+    tag: 'out',
+  },
+  interestsToysBoard: {
+    id: 'boilerplate.containers.BoardPage.scaffolding.boardHeading',
+    defaultMessage: 'Toys',
+    tag: 'toy',
+  },
+
+
+
   creativeBoard: {
     id: 'boilerplate.containers.BoardPage.scaffolding.boardHeading',
     defaultMessage: 'Creative',
