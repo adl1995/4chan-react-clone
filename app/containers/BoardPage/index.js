@@ -44,7 +44,7 @@ export default class BoardPage extends React.Component { // eslint-disable-line 
     videogamesRetroGamesTag = "thread/" + videogamesRetroGamesTag.props[0] + videogamesRetroGamesTag.props[1];
     
 
-    //
+
 
     return (
       <div>
@@ -199,6 +199,80 @@ export default class BoardPage extends React.Component { // eslint-disable-line 
             </ListItemTitle>
           </ListItem>
         </List>
+
+        <H2>
+          <FormattedMessage {...messages.creativeBoard} />
+        </H2>
+
+
+        <List>
+          <ListItem>
+            <ListItemTitle>
+              <a href={videogamesBoardMainTag}><FormattedMessage {...messages.creativeOekakiBoard} /></a>
+            </ListItemTitle>
+          </ListItem>
+          <ListItem>
+            <ListItemTitle>
+              <a href={videogamesBoardMainTag}><FormattedMessage {...messages.creativePapercraftOrigamiBoard} /></a>
+            </ListItemTitle>
+          </ListItem>
+          <ListItem>
+            <ListItemTitle>
+              <a href={videogamesBoardMainTag}><FormattedMessage {...messages.creativeFoodCookingBoard} /></a>
+            </ListItemTitle>
+          </ListItem>
+          <ListItem>
+            <ListItemTitle>
+              <a href={videogamesBoardMainTag}><FormattedMessage {...messages.creativeArtworkCritiqueBoard} /></a>
+            </ListItemTitle>
+          </ListItem>
+          <ListItem>
+            <ListItemTitle>
+              <a href={videogamesBoardMainTag}><FormattedMessage {...messages.creativeWallpapersGeneralBoard} /></a>
+            </ListItemTitle>
+          </ListItem>
+          <ListItem>
+            <ListItemTitle>
+              <a href={videogamesBoardMainTag}><FormattedMessage {...messages.creativeLiteratureBoard} /></a>
+            </ListItemTitle>
+          </ListItem>
+          <ListItem>
+            <ListItemTitle>
+              <a href={videogamesBoardMainTag}><FormattedMessage {...messages.creativeMusicBoard} /></a>
+            </ListItemTitle>
+          </ListItem>
+          <ListItem>
+            <ListItemTitle>
+              <a href={videogamesBoardMainTag}><FormattedMessage {...messages.creativeFashionBoard} /></a>
+            </ListItemTitle>
+          </ListItem>
+          <ListItem>
+            <ListItemTitle>
+              <a href={videogamesBoardMainTag}><FormattedMessage {...messages.creative3DCGBoard} /></a>
+            </ListItemTitle>
+          </ListItem>
+          <ListItem>
+            <ListItemTitle>
+              <a href={videogamesBoardMainTag}><FormattedMessage {...messages.creativeGraphicDesignBoard} /></a>
+            </ListItemTitle>
+          </ListItem>
+          <ListItem>
+            <ListItemTitle>
+              <a href={videogamesBoardMainTag}><FormattedMessage {...messages.creativeDoItYourselfBoard} /></a>
+            </ListItemTitle>
+          </ListItem>
+          <ListItem>
+            <ListItemTitle>
+              <a href={videogamesBoardMainTag}><FormattedMessage {...messages.creativeWorksafeGIFBoard} /></a>
+            </ListItemTitle>
+          </ListItem>
+          <ListItem>
+            <ListItemTitle>
+              <a href={videogamesBoardMainTag}><FormattedMessage {...messages.creativeQuestsBoard} /></a>
+            </ListItemTitle>
+          </ListItem>
+        </List>
+
         </div>
     );
   }
