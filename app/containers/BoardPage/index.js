@@ -44,6 +44,8 @@ export default class BoardPage extends React.Component { // eslint-disable-line 
     videogamesRetroGamesTag = "thread/" + videogamesRetroGamesTag.props[0] + videogamesRetroGamesTag.props[1];
     
 
+    //
+
     return (
       <div>
         <Helmet

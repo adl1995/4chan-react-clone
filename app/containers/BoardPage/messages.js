@@ -84,9 +84,6 @@ export default defineMessages({
     tag: 'vr',
   },
 
-
-
-
   interestsBoard: {
     id: 'boilerplate.containers.BoardPage.scaffolding.boardHeading',
     defaultMessage: 'Interests',
@@ -163,11 +160,81 @@ export default defineMessages({
   },
 
 
-
   creativeBoard: {
     id: 'boilerplate.containers.BoardPage.scaffolding.boardHeading',
     defaultMessage: 'Creative',
   },
+  creativeOekakiBoard: {
+    id: 'boilerplate.containers.BoardPage.scaffolding.boardHeading',
+    defaultMessage: 'Oekaki',
+    tag: 'i',
+  },
+  creativePapercraftOrigamiBoard: {
+    id: 'boilerplate.containers.BoardPage.scaffolding.boardHeading',
+    defaultMessage: 'Papercraft Origami',
+    tag: 'po',
+  },
+  creativePhotographyBoard: {
+    id: 'boilerplate.containers.BoardPage.scaffolding.boardHeading',
+    defaultMessage: 'Photography',
+    tag: 'p',
+  },
+  creativeFoodCookingBoard: {
+    id: 'boilerplate.containers.BoardPage.scaffolding.boardHeading',
+    defaultMessage: 'Food Cooking',
+    tag: 'ck',
+  },
+  creativeArtworkCritiqueBoard: {
+    id: 'boilerplate.containers.BoardPage.scaffolding.boardHeading',
+    defaultMessage: 'Artwork Critique',
+    tag: 'ic',
+  },
+  creativeWallpapersGeneralBoard: {
+    id: 'boilerplate.containers.BoardPage.scaffolding.boardHeading',
+    defaultMessage: 'Wallpapers General',
+    tag: 'wg',
+  },
+  creativeLiteratureBoard: {
+    id: 'boilerplate.containers.BoardPage.scaffolding.boardHeading',
+    defaultMessage: 'Literature',
+    tag: 'lit',
+  },
+  creativeMusicBoard: {
+    id: 'boilerplate.containers.BoardPage.scaffolding.boardHeading',
+    defaultMessage: 'Music',
+    tag: 'mu',
+  },
+  creativeFashionBoard: {
+    id: 'boilerplate.containers.BoardPage.scaffolding.boardHeading',
+    defaultMessage: 'Fashion',
+    tag: 'fa',
+  },
+  creative3DCGBoard: {
+    id: 'boilerplate.containers.BoardPage.scaffolding.boardHeading',
+    defaultMessage: '3DCG',
+    tag: '3',
+  },
+  creativeGraphicDesignBoard: {
+    id: 'boilerplate.containers.BoardPage.scaffolding.boardHeading',
+    defaultMessage: 'Graphic Design',
+    tag: 'gd',
+  },
+  creativeDoItYourselfBoard: {
+    id: 'boilerplate.containers.BoardPage.scaffolding.boardHeading',
+    defaultMessage: 'Do-It-Yourself',
+    tag: 'diy',
+  },
+  creativeWorksafeGIFBoard: {
+    id: 'boilerplate.containers.BoardPage.scaffolding.boardHeading',
+    defaultMessage: 'Worksafe GIF',
+    tag: 'wsg',
+  },
+  creativeQuestsBoard: {
+    id: 'boilerplate.containers.BoardPage.scaffolding.boardHeading',
+    defaultMessage: 'Quests',
+    tag: 'qst',
+  },
+
   otherBoard: {
     id: 'boilerplate.containers.BoardPage.scaffolding.boardHeading',
     defaultMessage: 'Other',
