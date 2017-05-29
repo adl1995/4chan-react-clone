@@ -239,6 +239,56 @@ export default defineMessages({
     id: 'boilerplate.containers.BoardPage.scaffolding.boardHeading',
     defaultMessage: 'Other',
   },
+  otherBusinessFinanceBoard: {
+    id: 'boilerplate.containers.BoardPage.scaffolding.boardHeading',
+    defaultMessage: 'Business & Finance',
+    tag: 'biz',
+  },
+  otherTravelBoard: {
+    id: 'boilerplate.containers.BoardPage.scaffolding.boardHeading',
+    defaultMessage: 'Travel',
+    tag: 'trv',
+  },
+  otherTravelBoard: {
+    id: 'boilerplate.containers.BoardPage.scaffolding.boardHeading',
+    defaultMessage: 'Travel',
+    tag: 'trv',
+  },
+  otherFitnessBoard: {
+    id: 'boilerplate.containers.BoardPage.scaffolding.boardHeading',
+    defaultMessage: 'Fitness',
+    tag: 'fit',
+  },
+  otherParanormalBoard: {
+    id: 'boilerplate.containers.BoardPage.scaffolding.boardHeading',
+    defaultMessage: 'Paranormal',
+    tag: 'x',
+  },
+  otherAdviceBoard: {
+    id: 'boilerplate.containers.BoardPage.scaffolding.boardHeading',
+    defaultMessage: 'LGBT',
+    tag: 'lgbt',
+  },
+  otherAdviceBoard: {
+    id: 'boilerplate.containers.BoardPage.scaffolding.boardHeading',
+    defaultMessage: 'Pony',
+    tag: 'mlp',
+  },
+  otherCurrentNewsBoard: {
+    id: 'boilerplate.containers.BoardPage.scaffolding.boardHeading',
+    defaultMessage: 'Current News',
+    tag: 'news',
+  },
+  otherWorksafeRequestsBoard: {
+    id: 'boilerplate.containers.BoardPage.scaffolding.boardHeading',
+    defaultMessage: 'Worksafe Requests',
+    tag: 'vip',
+  },
+  otherVeryImportantPostsBoard: {
+    id: 'boilerplate.containers.BoardPage.scaffolding.boardHeading',
+    defaultMessage: 'Very Important Posts',
+    tag: 'adv',
+  },
   miscBoard: {
     id: 'boilerplate.containers.BoardPage.scaffolding.boardHeading',
     defaultMessage: 'Misc.',

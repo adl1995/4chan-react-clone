@@ -7,6 +7,7 @@ import $ from 'jquery';
 import H1 from 'components/H1';
 import React from 'react';
 import axios from 'axios';
+import Fetch from 'react-fetch'
 export default class ThreadPage extends React.Component { // eslint-disable-line react/prefer-stateless-function
 
   // Since state and props are static,
@@ -21,7 +22,28 @@ export default class ThreadPage extends React.Component { // eslint-disable-line
   		headers: {'Access-Control-Allow-Origin': 'true'}
 	};
 
-	var response = axios.get('https://api.github.com/users/adl1995', {
+	$.ajax({
+			url: 'https://github.com/mzabriskie/axios/issues/853',
+			type: 'POST',
+			beforeSend: function(xhr) { xhr.setRequestHeader('X-CSRF-Token', $('meta[name="csrf-token"]').attr('content')); },
+			data: {
+				'listing_id' : $('#listing_id').text(),
+			},
+			success: function(response) {
+			    alert(response);
+			    location.reload();
+			},
+		});	
+
+
+	// var response = axios.get('https://api.github.com/users/adl1995', {
+	fetch('https://github.com/mzabriskie/axios/issues/853').then(function(response){
+        alert(response);
+        console.log('The response')
+        // perform setState here
+    });
+
+	var response = axios.get('https://github.com/mzabriskie/axios/issues/853', {
 	  timeout: 30000,
 	  headers: {'Access-Control-Allow-Origin': '*'},
 	  proxy: {
@@ -36,7 +58,7 @@ export default class ThreadPage extends React.Component { // eslint-disable-line
 	  console.log('' + error); 
 	});
 
-	console.log('RSPONSE ' + response);
+	console.log('RESPONSE ' + response);
 
   // 	axios.get('http://a.4cdn.org/' + board + '/threads.json', {
 	 //  proxy: {
