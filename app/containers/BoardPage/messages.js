@@ -249,11 +249,6 @@ export default defineMessages({
     defaultMessage: 'Travel',
     tag: 'trv',
   },
-  otherTravelBoard: {
-    id: 'boilerplate.containers.BoardPage.scaffolding.boardHeading',
-    defaultMessage: 'Travel',
-    tag: 'trv',
-  },
   otherFitnessBoard: {
     id: 'boilerplate.containers.BoardPage.scaffolding.boardHeading',
     defaultMessage: 'Fitness',
@@ -268,11 +263,6 @@ export default defineMessages({
     id: 'boilerplate.containers.BoardPage.scaffolding.boardHeading',
     defaultMessage: 'LGBT',
     tag: 'lgbt',
-  },
-  otherAdviceBoard: {
-    id: 'boilerplate.containers.BoardPage.scaffolding.boardHeading',
-    defaultMessage: 'Pony',
-    tag: 'mlp',
   },
   otherCurrentNewsBoard: {
     id: 'boilerplate.containers.BoardPage.scaffolding.boardHeading',
