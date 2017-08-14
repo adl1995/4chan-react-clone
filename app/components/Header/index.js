@@ -9,23 +9,23 @@ import Banner from './4chan-logo.png';
 import messages from './messages';
 
 class Header extends React.Component { // eslint-disable-line react/prefer-stateless-function
-  render() {
-    return (
-      <div>
-        <A href="https://twitter.com/mxstbr">
-          <Img src={Banner} alt="react-boilerplate - Logo" width="20" />
-        </A>
-        <NavBar>
-          <HeaderLink to="/">
-            <FormattedMessage {...messages.home} />
-          </HeaderLink>
-          <HeaderLink to="/boards">
-            <FormattedMessage {...messages.boards} />
-          </HeaderLink>
-        </NavBar>
-      </div>
-    );
-  }
+	render() {
+		return (
+			<div>
+				<A href="https://4chan.org">
+					<Img src={Banner} alt="react-boilerplate - Logo" width="20" />
+				</A>
+				<NavBar>
+					<HeaderLink to="/">
+						<FormattedMessage {...messages.home} />
+					</HeaderLink>
+					<HeaderLink to="/boards">
+						<FormattedMessage {...messages.boards} />
+					</HeaderLink>
+				</NavBar>
+			</div>
+		);
+	}
 }
 
 export default Header;
