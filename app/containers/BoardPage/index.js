@@ -321,11 +321,7 @@ export default class BoardPage extends React.Component { // eslint-disable-line 
             </ListItemTitle>
           </ListItem>
           </List>
-
-
         </div>
-
-
     );
   }
 }
