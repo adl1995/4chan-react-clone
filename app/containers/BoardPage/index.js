@@ -60,10 +60,10 @@ export default class BoardPage extends React.Component { // eslint-disable-line 
         <H1>
           <FormattedMessage {...messages.header} />
         </H1>
-
         <H2>
           <FormattedMessage {...messages.japaneseBoard} />
         </H2>
+
         <List>
           <ListItem>
             <ListItemTitle>
