@@ -14,7 +14,7 @@ export default class ThreadPage extends React.Component { // eslint-disable-line
 // Since state and props are static,
 // there's no need to re-render this component
 shouldComponentUpdate() {
-return false;
+	return false;
 }
 
 render() {
