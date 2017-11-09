@@ -44,7 +44,7 @@ export class HomePage extends React.PureComponent { // eslint-disable-line react
     return (
       <article>
         <Helmet
-          title="Home Page"
+          title="Welcome to 4chan"
           meta={[
             { name: 'description', content: '4chan React.js' },
           ]}
