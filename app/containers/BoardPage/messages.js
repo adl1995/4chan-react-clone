@@ -357,12 +357,4 @@ export default defineMessages({
       network connection from the instant your users load the app.
     `,
   },
-  intlHeader: {
-    id: 'boilerplate.containers.BoardPage.internationalization.header',
-    defaultMessage: 'Complete i18n Standard Internationalization & Pluralization',
-  },
-  intlMessage: {
-    id: 'boilerplate.containers.BoardPage.internationalization.message',
-    defaultMessage: 'Scalable apps need to support multiple languages, easily add and support multiple languages with `react-intl`.',
-  },
 });
